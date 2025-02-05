@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Nzai - Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="profile-card">
+        <div class="profile-header">
+            <img src="profile-picture.jpeg" alt="Profile Picture" data-testid="profilePicture" class="profile-picture">
+            <h1 data-testid="fullName">Victor Musembi Nzai</h1>
+            <h2 data-testid="jobTitle">Frontend Developer</h2>
+        </div>
+        
+        <div class="profile-content">
+            <p data-testid="shortBio"> Bio Inafaa kuwa hapa</p>
+            
+            <div class="info-section">
+                <p data-testid="currentLocation">
+                    <i class="fas fa-map-marker-alt"></i> 
+                    Nairobi, Kenya
+                </p>
+                <p data-testid="emailAddress">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:your.email@example.com">victor.nzai@strathmore.edu</a>
+                </p>
+                <p data-testid="currentTimeUTC" class="utc-time">
+                    <i class="fas fa-clock"></i>
+                    Loading UTC time...
+                </p>
+            </div>
+
+            <div class="social-links" data-testid="socialLinks">
+                <a href="https://www.linkedin.com/in/victor-musembi-709a39239/" target="_blank" class="social-icon">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/VictorNzai" target="_blank" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://twitter.com/yourprofile" target="_blank" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
